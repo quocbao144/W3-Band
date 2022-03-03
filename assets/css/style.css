@@ -14,6 +14,25 @@
 .text-white{
     color: white !important;
 }
+.text-center{
+    text-align: center !important
+}
+
+.row{
+    margin-left: -8px;
+    margin-right: -19px;
+}
+.col{
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.col-third{
+    width: calc(100%/3 - 20px);
+}
+.col-half{
+    width: 50%;
+}
 
 #header{
     height: 46px;
@@ -184,10 +203,8 @@
 }
 
 #content .member-item{
-    text-align: center;
-    float: left;
-    width: calc(100%/3);
     
+
 }
 
 #content .member-img{
@@ -235,15 +252,9 @@
 .place-list{
     overflow: hidden;
     margin-top: 32px;
-    margin-left: -8px;
-    margin-right: -19px;
 }
 
-.place-item{
-    float: left;
-    width: calc(100%/3 - 20px);
-    padding: 0 8px ;
-}
+
 
 
 .place-img{
