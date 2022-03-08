@@ -17,10 +17,22 @@
 .text-center{
     text-align: center !important
 }
-
+.mt-8{
+    margin-top: 8px !important
+}
+.mt-16{
+    margin-top: 16px !important
+}
 .row{
+    display: flex;
     margin-left: -8px;
-    margin-right: -19px;
+    margin-right: -8px;
+}
+
+.row::after{
+    content: "";
+    display: block;
+    clear: both;
 }
 .col{
     float: left;
@@ -28,7 +40,10 @@
     padding-right: 8px;
 }
 .col-third{
-    width: calc(100%/3 - 20px);
+    width: calc(100%/3);
+}
+.col-full{
+    width: 100%;
 }
 .col-half{
     width: 50%;
@@ -298,6 +313,34 @@
 .place-buy-btn:hover{
 
     background-color: gray;
+}
+
+.contact-content{
+    margin-top: 48px;
+}
+.contact-info{
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.contact-info i{
+    
+    display: inline-block;
+    width: 30px;
+}
+.contact-form .form-control{
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+.form-submit{
+    float: right;
+    color: white;
+    background-color: black;
+    padding: 10px 16px;
+}
+.contact-form{
+    
 }
 
 
