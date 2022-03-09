@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css">
-    <title>Document</title>
+    <title>The Band</title>
+    <link rel="icon" href="http://picture.dzogame.vn/Img/3Iu3bQV_pp_138.png" type="image/x-icon" />
 </head>
 <body>
     <div id="main">
@@ -14,18 +15,18 @@
             <!-- Begin:Nav -->
             <ul id="nav">
                 <li><a href="#">Home</a></li>
-                <li><a href="#">Band</a></li>
-                <li><a href="#">Tour</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#content">Band</a></li>
+                <li><a href="#tour">Tour</a></li>
+                <li><a href="#contact">Contact</a></li>
                 <li>
                     <a href="#">
                         More
                         <i class="nav-icon-down ti-angle-down"></i>
                     </a>
                     <ul class="subnav">
-                        <li><a href="">Mechandise</a></li>
-                        <li><a href="">Extras</a></li>
-                        <li><a href="">Media</a></li>
+                        <li><a href="#">Mechandise</a></li>
+                        <li><a href="#">Extras</a></li>
+                        <li><a href="#">Media</a></li>
                     </ul>
                 </li>
             </ul>
@@ -80,7 +81,7 @@
             <!-- The Band Content -->
 
             <!-- Tour Content -->
-            <div class="tour-section">
+            <div id="tour" class="tour-section">
                 <div class="content-section">
                     <h2 class="section-heading text-white">
                         TOUR DATES
@@ -127,7 +128,7 @@
             <!-- Tour Content -->
 
             <!-- Contact Content -->
-            <div class="Contact-section">
+            <div id="contact" class="Contact-section">
                 <div class="content-section">
                     <h2 class="section-heading">
                         CONTACT
@@ -144,15 +145,15 @@
                             <form action="">
                                 <div class="row">
                                     <div class="col col-half ">
-                                        <input type="text" name="" placeholder="Name" id="" class="form-control">
+                                        <input type="text" name="" placeholder="Name" required id="" class="form-control">
                                     </div>
                                     <div class="col col-half">
-                                        <input type="text" name="" placeholder="Email" id="" class="form-control">
+                                        <input type="text" name="" placeholder="Email" required id="" class="form-control">
                                     </div>
                                 </div>
                                 <div class="row mt-8">
                                     <div class="col col-full">
-                                        <input type="text" name="" placeholder="Message" id="" class="form-control">
+                                        <input type="text" name="" placeholder="Message" required id="" class="form-control ">
                                     </div>
                                 </div>
                                 <input class="form-submit mt-16" type="submit" value="SEND">
@@ -162,11 +163,21 @@
                 </div>
             </div>
             <!-- Contact Content -->
-
+            <div class="map-section">
+                <img src="./assets/img/map.jpg" alt="">
+            </div>
         </div>
 
         <div id="footer">
-
+            <div class="socials-list">
+                <a href=""><i class="ti-facebook"></i></a>
+                <a href=""><i class="ti-instagram"></i></a>
+                <a href=""><i class="ti-twitter"></i></a>
+                <a href=""><i class="ti-pinterest"></i></a>
+                <a href=""><i class="ti-microsoft"></i></a>
+                <a href=""><i class="ti-youtube"></i></a>
+            </div>
+            <p class="footer-heading">Powered by <a href="">w3.css</a></p>
         </div>
     </div>
     <div class="modal js-modal">
